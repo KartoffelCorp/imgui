@@ -58,6 +58,11 @@ cmake-build-*
 ## VS code artifacts
 .vscode
 
+## VS
+*.sln
+*.vcxproj
+*.vcxproj.filters
+
 ## Unix executables from our example Makefiles
 examples/example_apple_metal/example_apple_metal
 examples/example_apple_opengl2/example_apple_opengl2
@@ -77,3 +82,18 @@ examples/example_sdl3_opengl3/example_sdl3_opengl3
 examples/example_sdl3_sdlgpu3/example_sdl3_sdlgpu3
 examples/example_sdl3_sdlrenderer3/example_sdl3_sdlrenderer3
 examples/example_sdl3_vulkan/example_sdl3_vulkan
+
+## Ignore temp folders
+**/Binaries/
+**/Intermediate/
+**/Saved/
+
+## Compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.obj
+*.o
